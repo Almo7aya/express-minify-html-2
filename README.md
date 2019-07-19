@@ -1,5 +1,10 @@
-# express-minify-html
+# express-minify-html-2
 Express middleware wrapper around HTML minifier
+
+## Note that this is a fork of express-minify-html
+
+This fork is made in order to keep the [express-minify-html](https://github.com/melonmanchan/express-minify-html) project alive.
+All credits go to the contributors in the original repo.
 
 ## Description
 
@@ -8,13 +13,13 @@ This express middleware simply enchances the regular 'render' method of the resp
 ## Usage
 
 ```sh
-npm install --save --production express-minify-html express
+npm install --save --production express-minify-html-2 express
 ```
 
 ```js
 
 var express    = require('express');
-var minifyHTML = require('express-minify-html');
+var minifyHTML = require('express-minify-html-2');
 
 var app = express();
 
@@ -69,5 +74,5 @@ Full examples can naturally be found under the 'examples'-folder of this reposit
 
 MIT © [Matti Jokitulppo](http://mattij.com)
 
-[![npm version](https://badge.fury.io/js/express-minify-html.svg)](https://badge.fury.io/js/express-minify-html)
-[![npm downloads](https://img.shields.io/npm/dm/express-minify-html.svg)](https://img.shields.io/npm/dm/express-minify-html.svg)
+[![npm version](https://badge.fury.io/js/express-minify-html-2.svg)](https://badge.fury.io/js/express-minify-html-2)
+[![npm downloads](https://img.shields.io/npm/dm/express-minify-html-2.svg)](https://img.shields.io/npm/dm/express-minify-html-2.svg)
