@@ -1,7 +1,7 @@
 {
-  "name": "express-minify-html-2",
+  "name": "express-minify-html-3",
   "version": "1.0.1",
-  "description": "Express middleware around HTML minifier",
+  "description": "Express middleware around HTML minifier with html-minifier-with-remove-custom-attrs",
   "main": "minifier.js",
   "scripts": {
     "test": "node tests"
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/meszaros-lajos-gyorgy/express-minify-html-2#readme",
   "dependencies": {
-    "html-minifier": "^4.0.0",
+    "html-minifier-with-remove-custom-attrs": "^4.0.0",
     "lodash.merge": "^4.6.2"
   },
   "devDependencies": {
