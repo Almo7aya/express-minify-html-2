@@ -1,6 +1,6 @@
 {
   "name": "express-minify-html-3",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Express middleware around HTML minifier with html-minifier-with-remove-custom-attrs",
   "main": "minifier.js",
   "scripts": {
