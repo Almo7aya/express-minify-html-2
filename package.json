@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/meszaros-lajos-gyorgy/express-minify-html-2#readme",
   "dependencies": {
-    "html-minifier-with-remove-custom-attrs": "^4.0.0",
+    "html-minifier-with-remove-custom-attrs": "^4.1.0",
     "lodash.merge": "^4.6.2"
   },
   "devDependencies": {
